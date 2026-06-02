@@ -1,0 +1,171 @@
+2026-06-02 19:08:59,113 | INFO     | ============================================================
+2026-06-02 19:08:59,114 | INFO     | Bluestock MF Capstone - ETL Pipeline START
+2026-06-02 19:08:59,116 | INFO     | ============================================================
+2026-06-02 19:08:59,121 | INFO     | Loaded fund_master: 40 rows × 15 cols
+2026-06-02 19:08:59,149 | INFO     | Loaded nav_history: 46,000 rows × 3 cols
+2026-06-02 19:08:59,152 | INFO     | Loaded aum_by_fund_house: 90 rows × 5 cols
+2026-06-02 19:08:59,155 | INFO     | Loaded monthly_sip_inflows: 48 rows × 6 cols
+2026-06-02 19:08:59,158 | INFO     | Loaded category_inflows: 144 rows × 3 cols
+2026-06-02 19:08:59,162 | INFO     | Loaded industry_folio_count: 21 rows × 6 cols
+2026-06-02 19:08:59,168 | INFO     | Loaded scheme_performance: 40 rows × 19 cols
+2026-06-02 19:08:59,241 | INFO     | Loaded investor_transactions: 32,778 rows × 13 cols
+2026-06-02 19:08:59,245 | INFO     | Loaded portfolio_holdings: 322 rows × 8 cols
+2026-06-02 19:08:59,255 | INFO     | Loaded benchmark_indices: 8,050 rows × 3 cols
+2026-06-02 19:08:59,256 | INFO     | [fund_master] Column validation passed.
+2026-06-02 19:08:59,266 | INFO     | fund_master cleaned.
+2026-06-02 19:08:59,271 | INFO     | Saved processed file: fund_master_clean.csv  (40 rows)
+2026-06-02 19:08:59,273 | INFO     | [nav_history] Column validation passed.
+2026-06-02 19:08:59,314 | INFO     | nav_history cleaned.
+2026-06-02 19:08:59,550 | INFO     | Saved processed file: nav_history_clean.csv  (46,000 rows)
+2026-06-02 19:08:59,552 | INFO     | [aum_by_fund_house] Column validation passed.
+2026-06-02 19:08:59,557 | INFO     | aum_by_fund_house cleaned.
+2026-06-02 19:08:59,561 | INFO     | Saved processed file: aum_by_fund_house_clean.csv  (90 rows)
+2026-06-02 19:08:59,562 | INFO     | [monthly_sip_inflows] Column validation passed.
+2026-06-02 19:08:59,571 | INFO     | monthly_sip_inflows cleaned.
+2026-06-02 19:08:59,574 | INFO     | Saved processed file: monthly_sip_inflows_clean.csv  (48 rows)
+2026-06-02 19:08:59,575 | INFO     | [category_inflows] Column validation passed.
+2026-06-02 19:08:59,579 | INFO     | category_inflows cleaned.
+2026-06-02 19:08:59,584 | INFO     | Saved processed file: category_inflows_clean.csv  (144 rows)
+2026-06-02 19:08:59,590 | INFO     | industry_folio_count cleaned.
+2026-06-02 19:08:59,593 | INFO     | Saved processed file: industry_folio_count_clean.csv  (21 rows)
+2026-06-02 19:08:59,594 | INFO     | [scheme_performance] Column validation passed.
+2026-06-02 19:08:59,604 | INFO     | scheme_performance cleaned.
+2026-06-02 19:08:59,607 | INFO     | Saved processed file: scheme_performance_clean.csv  (40 rows)
+2026-06-02 19:08:59,610 | INFO     | [investor_transactions] Column validation passed.
+2026-06-02 19:08:59,688 | INFO     | investor_transactions cleaned.
+2026-06-02 19:08:59,941 | INFO     | Saved processed file: investor_transactions_clean.csv  (32,778 rows)
+2026-06-02 19:08:59,942 | INFO     | [portfolio_holdings] Column validation passed.
+2026-06-02 19:08:59,948 | INFO     | portfolio_holdings cleaned.
+2026-06-02 19:08:59,953 | INFO     | Saved processed file: portfolio_holdings_clean.csv  (322 rows)
+2026-06-02 19:08:59,954 | INFO     | [benchmark_indices] Column validation passed.
+2026-06-02 19:08:59,969 | INFO     | benchmark_indices cleaned.
+2026-06-02 19:09:00,020 | INFO     | Saved processed file: benchmark_indices_clean.csv  (8,050 rows)
+2026-06-02 19:09:00,021 | INFO     | Loading data into SQLite: F:\Blue_stock Internship\Bluestock_MF_Capstone_Complete (1)\bluestock_mf_capstone\data\db\bluestock_mf.db
+2026-06-02 19:09:00,323 | INFO     |   -> fund_master: 40 rows loaded
+2026-06-02 19:09:00,820 | INFO     |   -> nav_history: 46,000 rows loaded
+2026-06-02 19:09:01,126 | INFO     |   -> aum_by_fund_house: 90 rows loaded
+2026-06-02 19:09:01,422 | INFO     |   -> monthly_sip_inflows: 48 rows loaded
+2026-06-02 19:09:01,708 | INFO     |   -> category_inflows: 144 rows loaded
+2026-06-02 19:09:02,026 | INFO     |   -> industry_folio_count: 21 rows loaded
+2026-06-02 19:09:02,403 | INFO     |   -> scheme_performance: 40 rows loaded
+2026-06-02 19:09:02,957 | INFO     |   -> investor_transactions: 32,778 rows loaded
+2026-06-02 19:09:03,252 | INFO     |   -> portfolio_holdings: 322 rows loaded
+2026-06-02 19:09:03,593 | INFO     |   -> benchmark_indices: 8,050 rows loaded
+2026-06-02 19:09:03,595 | INFO     | SQLite load complete.
+2026-06-02 19:09:03,596 | INFO     | ============================================================
+2026-06-02 19:09:03,596 | INFO     | ETL Pipeline COMPLETE
+2026-06-02 19:09:03,598 | INFO     | ============================================================
+2026-06-02 19:09:07,860 | INFO     | ============================================================
+2026-06-02 19:09:07,861 | INFO     | Bluestock MF Capstone - ETL Pipeline START
+2026-06-02 19:09:07,862 | INFO     | ============================================================
+2026-06-02 19:09:07,866 | INFO     | Loaded fund_master: 40 rows × 15 cols
+2026-06-02 19:09:07,897 | INFO     | Loaded nav_history: 46,000 rows × 3 cols
+2026-06-02 19:09:07,902 | INFO     | Loaded aum_by_fund_house: 90 rows × 5 cols
+2026-06-02 19:09:07,906 | INFO     | Loaded monthly_sip_inflows: 48 rows × 6 cols
+2026-06-02 19:09:07,909 | INFO     | Loaded category_inflows: 144 rows × 3 cols
+2026-06-02 19:09:07,913 | INFO     | Loaded industry_folio_count: 21 rows × 6 cols
+2026-06-02 19:09:07,917 | INFO     | Loaded scheme_performance: 40 rows × 19 cols
+2026-06-02 19:09:07,986 | INFO     | Loaded investor_transactions: 32,778 rows × 13 cols
+2026-06-02 19:09:07,990 | INFO     | Loaded portfolio_holdings: 322 rows × 8 cols
+2026-06-02 19:09:07,998 | INFO     | Loaded benchmark_indices: 8,050 rows × 3 cols
+2026-06-02 19:09:07,999 | INFO     | [fund_master] Column validation passed.
+2026-06-02 19:09:08,005 | INFO     | fund_master cleaned.
+2026-06-02 19:09:08,008 | INFO     | Saved processed file: fund_master_clean.csv  (40 rows)
+2026-06-02 19:09:08,010 | INFO     | [nav_history] Column validation passed.
+2026-06-02 19:09:08,041 | INFO     | nav_history cleaned.
+2026-06-02 19:09:08,209 | INFO     | Saved processed file: nav_history_clean.csv  (46,000 rows)
+2026-06-02 19:09:08,210 | INFO     | [aum_by_fund_house] Column validation passed.
+2026-06-02 19:09:08,213 | INFO     | aum_by_fund_house cleaned.
+2026-06-02 19:09:08,216 | INFO     | Saved processed file: aum_by_fund_house_clean.csv  (90 rows)
+2026-06-02 19:09:08,217 | INFO     | [monthly_sip_inflows] Column validation passed.
+2026-06-02 19:09:08,221 | INFO     | monthly_sip_inflows cleaned.
+2026-06-02 19:09:08,224 | INFO     | Saved processed file: monthly_sip_inflows_clean.csv  (48 rows)
+2026-06-02 19:09:08,226 | INFO     | [category_inflows] Column validation passed.
+2026-06-02 19:09:08,229 | INFO     | category_inflows cleaned.
+2026-06-02 19:09:08,232 | INFO     | Saved processed file: category_inflows_clean.csv  (144 rows)
+2026-06-02 19:09:08,236 | INFO     | industry_folio_count cleaned.
+2026-06-02 19:09:08,239 | INFO     | Saved processed file: industry_folio_count_clean.csv  (21 rows)
+2026-06-02 19:09:08,240 | INFO     | [scheme_performance] Column validation passed.
+2026-06-02 19:09:08,247 | INFO     | scheme_performance cleaned.
+2026-06-02 19:09:08,249 | INFO     | Saved processed file: scheme_performance_clean.csv  (40 rows)
+2026-06-02 19:09:08,252 | INFO     | [investor_transactions] Column validation passed.
+2026-06-02 19:09:08,312 | INFO     | investor_transactions cleaned.
+2026-06-02 19:09:08,480 | INFO     | Saved processed file: investor_transactions_clean.csv  (32,778 rows)
+2026-06-02 19:09:08,482 | INFO     | [portfolio_holdings] Column validation passed.
+2026-06-02 19:09:08,486 | INFO     | portfolio_holdings cleaned.
+2026-06-02 19:09:08,491 | INFO     | Saved processed file: portfolio_holdings_clean.csv  (322 rows)
+2026-06-02 19:09:08,492 | INFO     | [benchmark_indices] Column validation passed.
+2026-06-02 19:09:08,503 | INFO     | benchmark_indices cleaned.
+2026-06-02 19:09:08,536 | INFO     | Saved processed file: benchmark_indices_clean.csv  (8,050 rows)
+2026-06-02 19:09:08,538 | INFO     | Loading data into SQLite: F:\Blue_stock Internship\Bluestock_MF_Capstone_Complete (1)\bluestock_mf_capstone\data\db\bluestock_mf.db
+2026-06-02 19:09:08,931 | INFO     |   -> fund_master: 40 rows loaded
+2026-06-02 19:09:09,376 | INFO     |   -> nav_history: 46,000 rows loaded
+2026-06-02 19:09:09,994 | INFO     |   -> aum_by_fund_house: 90 rows loaded
+2026-06-02 19:09:10,301 | INFO     |   -> monthly_sip_inflows: 48 rows loaded
+2026-06-02 19:09:10,598 | INFO     |   -> category_inflows: 144 rows loaded
+2026-06-02 19:09:10,905 | INFO     |   -> industry_folio_count: 21 rows loaded
+2026-06-02 19:09:11,212 | INFO     |   -> scheme_performance: 40 rows loaded
+2026-06-02 19:09:11,704 | INFO     |   -> investor_transactions: 32,778 rows loaded
+2026-06-02 19:09:12,040 | INFO     |   -> portfolio_holdings: 322 rows loaded
+2026-06-02 19:09:12,337 | INFO     |   -> benchmark_indices: 8,050 rows loaded
+2026-06-02 19:09:12,339 | INFO     | SQLite load complete.
+2026-06-02 19:09:12,340 | INFO     | ============================================================
+2026-06-02 19:09:12,341 | INFO     | ETL Pipeline COMPLETE
+2026-06-02 19:09:12,342 | INFO     | ============================================================
+2026-06-02 19:23:20,413 | INFO     | ============================================================
+2026-06-02 19:23:20,414 | INFO     | Bluestock MF Capstone - ETL Pipeline START
+2026-06-02 19:23:20,415 | INFO     | ============================================================
+2026-06-02 19:23:20,420 | INFO     | Loaded fund_master: 40 rows × 15 cols
+2026-06-02 19:23:20,438 | INFO     | Loaded nav_history: 46,000 rows × 3 cols
+2026-06-02 19:23:20,441 | INFO     | Loaded aum_by_fund_house: 90 rows × 5 cols
+2026-06-02 19:23:20,444 | INFO     | Loaded monthly_sip_inflows: 48 rows × 6 cols
+2026-06-02 19:23:20,446 | INFO     | Loaded category_inflows: 144 rows × 3 cols
+2026-06-02 19:23:20,449 | INFO     | Loaded industry_folio_count: 21 rows × 6 cols
+2026-06-02 19:23:20,452 | INFO     | Loaded scheme_performance: 40 rows × 19 cols
+2026-06-02 19:23:20,505 | INFO     | Loaded investor_transactions: 32,778 rows × 13 cols
+2026-06-02 19:23:20,508 | INFO     | Loaded portfolio_holdings: 322 rows × 8 cols
+2026-06-02 19:23:20,516 | INFO     | Loaded benchmark_indices: 8,050 rows × 3 cols
+2026-06-02 19:23:20,517 | INFO     | [fund_master] Column validation passed.
+2026-06-02 19:23:20,524 | INFO     | fund_master cleaned.
+2026-06-02 19:23:20,527 | INFO     | Saved processed file: fund_master_clean.csv  (40 rows)
+2026-06-02 19:23:20,529 | INFO     | [nav_history] Column validation passed.
+2026-06-02 19:23:20,560 | INFO     | nav_history cleaned.
+2026-06-02 19:23:20,721 | INFO     | Saved processed file: nav_history_clean.csv  (46,000 rows)
+2026-06-02 19:23:20,722 | INFO     | [aum_by_fund_house] Column validation passed.
+2026-06-02 19:23:20,726 | INFO     | aum_by_fund_house cleaned.
+2026-06-02 19:23:20,729 | INFO     | Saved processed file: aum_by_fund_house_clean.csv  (90 rows)
+2026-06-02 19:23:20,730 | INFO     | [monthly_sip_inflows] Column validation passed.
+2026-06-02 19:23:20,734 | INFO     | monthly_sip_inflows cleaned.
+2026-06-02 19:23:20,737 | INFO     | Saved processed file: monthly_sip_inflows_clean.csv  (48 rows)
+2026-06-02 19:23:20,738 | INFO     | [category_inflows] Column validation passed.
+2026-06-02 19:23:20,741 | INFO     | category_inflows cleaned.
+2026-06-02 19:23:20,743 | INFO     | Saved processed file: category_inflows_clean.csv  (144 rows)
+2026-06-02 19:23:20,749 | INFO     | industry_folio_count cleaned.
+2026-06-02 19:23:20,752 | INFO     | Saved processed file: industry_folio_count_clean.csv  (21 rows)
+2026-06-02 19:23:20,753 | INFO     | [scheme_performance] Column validation passed.
+2026-06-02 19:23:20,759 | INFO     | scheme_performance cleaned.
+2026-06-02 19:23:20,762 | INFO     | Saved processed file: scheme_performance_clean.csv  (40 rows)
+2026-06-02 19:23:20,765 | INFO     | [investor_transactions] Column validation passed.
+2026-06-02 19:23:20,821 | INFO     | investor_transactions cleaned.
+2026-06-02 19:23:20,981 | INFO     | Saved processed file: investor_transactions_clean.csv  (32,778 rows)
+2026-06-02 19:23:20,982 | INFO     | [portfolio_holdings] Column validation passed.
+2026-06-02 19:23:20,986 | INFO     | portfolio_holdings cleaned.
+2026-06-02 19:23:20,990 | INFO     | Saved processed file: portfolio_holdings_clean.csv  (322 rows)
+2026-06-02 19:23:20,991 | INFO     | [benchmark_indices] Column validation passed.
+2026-06-02 19:23:21,006 | INFO     | benchmark_indices cleaned.
+2026-06-02 19:23:21,037 | INFO     | Saved processed file: benchmark_indices_clean.csv  (8,050 rows)
+2026-06-02 19:23:21,038 | INFO     | Loading data into SQLite: F:\Blue_stock Internship\Task_1_Dataset\Bluestock_MF_Capstone_Complete (1)\bluestock_mf_capstone\data\db\bluestock_mf.db
+2026-06-02 19:23:21,435 | INFO     |   -> fund_master: 40 rows loaded
+2026-06-02 19:23:21,843 | INFO     |   -> nav_history: 46,000 rows loaded
+2026-06-02 19:23:22,197 | INFO     |   -> aum_by_fund_house: 90 rows loaded
+2026-06-02 19:23:22,554 | INFO     |   -> monthly_sip_inflows: 48 rows loaded
+2026-06-02 19:23:22,875 | INFO     |   -> category_inflows: 144 rows loaded
+2026-06-02 19:23:23,529 | INFO     |   -> industry_folio_count: 21 rows loaded
+2026-06-02 19:23:23,904 | INFO     |   -> scheme_performance: 40 rows loaded
+2026-06-02 19:23:24,503 | INFO     |   -> investor_transactions: 32,778 rows loaded
+2026-06-02 19:23:24,861 | INFO     |   -> portfolio_holdings: 322 rows loaded
+2026-06-02 19:23:25,218 | INFO     |   -> benchmark_indices: 8,050 rows loaded
+2026-06-02 19:23:25,220 | INFO     | SQLite load complete.
+2026-06-02 19:23:25,221 | INFO     | ============================================================
+2026-06-02 19:23:25,222 | INFO     | ETL Pipeline COMPLETE
+2026-06-02 19:23:25,223 | INFO     | ============================================================
